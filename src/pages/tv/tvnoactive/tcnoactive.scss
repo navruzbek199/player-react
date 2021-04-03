@@ -1,0 +1,111 @@
+.tvnoactive {
+  background: #161618;
+  .bg-tv {
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+  .nav-item {
+    .nav-link {
+        display: flex;
+      .tv-chanel {
+          display: flex;
+          align-items: center;
+        .left-chanel {
+          img {
+            width: 90px;
+            height: 60px;
+            object-fit: contain;
+          }
+        }
+        .right-chanel {
+          margin-left: 12px;
+          .chanel-name {
+            display: flex;
+            justify-content: space-between;
+            p {
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              letter-spacing: -0.408px;
+              color: #ffffff;
+              margin-bottom: 10px;
+              span {
+                color: rgb(221, 155, 11);
+              }
+            }
+            svg {
+              color: rgba(255, 255, 255, 0.2);
+              font-size: 20px;
+            }
+          }
+          .chanel-text {
+            p {
+              font-size: 14px;
+              line-height: 20px;
+              letter-spacing: -0.408px;
+              color: rgba(255, 255, 255, 0.2);
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+    .nav-link.active{
+        background-color:  rgba(255, 255, 255, 0.2);
+    }
+  }
+  .back-box{
+      position: absolute;
+      top: 10%;
+      left: 20%;
+      .top-icon{
+          text-align: center;
+          svg{
+              font-size: 150px;
+              color:  rgba(255, 255, 255, 0.2);
+          }
+      }
+      .back-text{
+          text-align: center;
+          h1{
+            font-size: 22px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: -0.408px;
+            color: #FFFFFF;
+          }
+          p{
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            letter-spacing: -0.408px;
+            color: rgba(255, 255, 255, 0.25);
+            margin-bottom: 24px;
+          }
+      }
+      .back-btn{
+          margin: 0 auto;
+          display: block;
+          text-align: center;
+      }
+      .backs-btn{
+        background: #FFFFFF;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: -0.408px;
+        text-transform: uppercase;
+        color: #000000;
+        svg{
+            color: #F63362;
+            margin-right: 8px;
+        }
+      }
+  }
+
+
+
+}

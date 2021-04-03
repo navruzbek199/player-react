@@ -1,0 +1,143 @@
+.follow{
+    background: #161618;
+    .breadcrumb {
+        display: flex;
+        flex-wrap: wrap;
+        padding: .75rem 1rem;
+        margin-bottom: 1rem;
+        list-style: none;
+        background-color: #161618;
+        border-radius: .25rem;
+        padding-left: 0px;
+        &-item a{
+            font-size: 14px;
+            line-height: 25px;
+            letter-spacing: -0.408px;
+            text-decoration-line: underline;
+            color: #FFFFFF;
+        }
+        &-item.active{
+            font-size: 14px;
+            line-height: 25px;
+            letter-spacing: -0.408px;
+        }
+    }
+    .follow-title{
+        p{
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 46px;
+            letter-spacing: -0.408px;
+            color: #FFFFFF;
+        }
+    }
+    .brand-box{
+        border-radius: 6px;
+        height: 420px;
+        margin-top: 35px;
+        .brand-img{
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 6px;
+            padding: 10px 0;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            img{
+                width: 100px;
+                height: 60px;
+                object-fit: contain;
+                margin: 0 auto;
+                justify-content: center;
+
+            }
+
+        }
+        .brandx-img{
+            background: #E52252;
+            border-radius: 6px;
+            padding: 10px 0;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            img{
+                width: 100px;
+                height: 60px;
+                object-fit: contain;
+                margin: 0 auto;
+                justify-content: center;
+
+            }
+
+        }
+        .brandy-img{
+            background: #5861CE;
+            border-radius: 6px;
+            padding: 10px 0;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            img{
+                width: 100px;
+                height: 60px;
+                object-fit: contain;
+                margin: 0 auto;
+                justify-content: center;
+                background: #5861CE;
+            }
+
+        }
+        .brand-name{
+            padding: 15px 35px;
+            background-color: #161618;
+            h5{
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 20px;
+                letter-spacing: -0.408px;
+                color: #FFFFFF;
+            }
+            p{
+                font-size: 14px;
+                line-height: 41px;
+                letter-spacing: -0.5px;
+                color: #FFFFFF;
+                span{
+                    color:  #5EA85E;
+                }
+            }
+        }
+        .brand-btn{
+            padding: 10px 35px;
+            background: rgba(255, 255, 255, 0.02);
+            p{
+                font-size: 20px;
+                line-height: 24px;
+                color: rgba(255, 255, 255, 0.4);
+            }
+            .brd-btn{
+                background: #FFFFFF;
+                border-radius: 6px;
+                padding: 12px 0;
+                width: 100%;
+                
+                p{
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-align: center;
+                    letter-spacing: -0.408px;
+                    color: #000000;
+                    margin-bottom: 0;
+                    span{
+                        font-size: 12px;
+                        line-height: 20px;
+                        text-align: center;
+                        letter-spacing: -0.5px;
+                        color: #F63362;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,108 @@
+.admin-page{
+    background: #161618;
+    padding-bottom: 50px;
+    .breadcrumb {
+        display: flex;
+        flex-wrap: wrap;
+        padding: .75rem 1rem;
+        margin-bottom: 1rem;
+        list-style: none;
+        background-color: #161618;
+        border-radius: .25rem;
+        padding-left: 0px;
+        &-item a{
+            font-size: 14px;
+            line-height: 25px;
+            letter-spacing: -0.408px;
+            text-decoration-line: underline;
+            color: #FFFFFF;
+        }
+        &-item.active{
+            font-size: 14px;
+            line-height: 25px;
+            letter-spacing: -0.408px;
+        }
+    }
+    .header-left{
+        display: flex;
+        align-items: center;
+        .admin-img{
+
+            img{
+                border-radius: 50%;
+                object-fit: contain;
+            }
+        }
+        .admin-name{
+            margin-left: 20px;
+            h2{
+                font-weight: 500;
+                font-size: 50px;
+                line-height: 46px;
+                letter-spacing: -0.408px;
+                color: #FFFFFF;
+            }
+            p{
+                font-size: 22px;
+                line-height: 20px;
+                letter-spacing: -0.408px;
+                color: rgba(255, 255, 255, 0.4);
+            }
+        }
+    }
+    .header-right{
+        margin-right: auto;
+        display: flex;
+        justify-content: flex-end;
+        .admin-btn{
+            background: #FFFFFF;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 22px;
+            letter-spacing: -0.408px;
+            text-transform: uppercase;
+            color: #000000;
+            svg{
+                color:#F63362;
+                font-size: 14px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .admin-card{
+        display: flex;
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 4px;
+        padding: 30px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        height: 200px;
+        
+        .adm-icon{
+            svg{
+                color: #5EA85E;
+                font-size: 30px;
+                margin-right: 20px;
+            }
+        }
+        .adm-text{
+            text-align: left;
+            p{
+                font-weight: 500;
+                font-size: 26px;
+                line-height: 28px;
+                letter-spacing: 0.2px;
+                color: #FFFFFF;
+                margin-bottom: 10px;
+            }
+            span{
+                font-size: 18px;
+                line-height: 19px;
+                display: flex;
+                align-items: center;
+                color: rgba(255, 255, 255, 0.3);
+            }
+        }
+    }
+}

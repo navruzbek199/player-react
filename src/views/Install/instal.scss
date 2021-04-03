@@ -1,0 +1,36 @@
+.install{
+    margin-top: 40px;
+    .inst-img{
+        img{
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+    .inst-about{
+        p{
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 46px;
+            letter-spacing: -0.408px;
+            color: #FFFFFF;
+            margin-bottom: 35px;
+            margin-top: 40px;
+        }
+        span{
+            font-size: 18px;
+            line-height: 30px;
+            letter-spacing: -0.408px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 25px;
+        }
+        .download{
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            margin-top: 20px;
+            img:nth-child(2){
+                margin-left: 10px;
+            }
+        }
+    }
+}

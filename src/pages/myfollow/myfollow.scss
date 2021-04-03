@@ -1,0 +1,205 @@
+.myfollow {
+  background: #161618;
+  padding-bottom: 40px;
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background: none;
+    border-radius: 0.25rem;
+    padding-left: 0px;
+    &-item a {
+      font-size: 14px;
+      line-height: 25px;
+      letter-spacing: -0.408px;
+      text-decoration-line: underline;
+      color: #ffffff;
+    }
+    &-item.active {
+      font-size: 14px;
+      line-height: 25px;
+      letter-spacing: -0.408px;
+    }
+  }
+  .myfollow-title {
+    p {
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 46px;
+      letter-spacing: -0.408px;
+      color: #ffffff;
+      margin-bottom: 0;
+    }
+    span {
+      font-size: 22px;
+      line-height: 41px;
+      letter-spacing: -0.5px;
+      color: rgba(255, 255, 255, 0.4);
+    }
+  }
+  .myfollow-brd {
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    img {
+      object-fit: contain;
+    }
+  }
+  .myfollow-plan {
+    margin-top: 40px;
+    p {
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 28px;
+      letter-spacing: 0.2px;
+      color: #ffffff;
+    }
+  }
+  .swiper-container {
+    background: rgba(11, 12, 12, 0.6);
+    border-radius: 6px;
+    padding: 30px 0;
+    margin-bottom: 30px;
+    .swiper-slide {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      .btn-group-toggle > .btn,
+      .btn-group-toggle > .btn-group > .btn {
+        margin-bottom: 0;
+        background: black;
+        border: none;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+      }
+      .btn-secondary:not(:disabled):not(.disabled).active,
+      .btn-secondary:not(:disabled):not(.disabled):active,
+      .show > .btn-secondary.dropdown-toggle {
+        color: #fff;
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+      }
+    }
+  }
+  .plan-sec{
+    display: flex;
+    margin-bottom: 40px;
+    .plan-item-one{
+      display: flex;
+      .plan-img{
+        svg{
+         color: #5EA85E;
+         font-size: 16px;
+        }
+      }
+      .plan-text{
+        margin-left: 15px;
+        p{
+          font-size: 20px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          color: #FFFFFF;
+          margin-bottom: 0;
+        }
+        span{
+          font-size: 16px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          color: #737374;
+        }
+      }
+    }
+    .plan-item-sec{
+      display: flex;
+      margin-left: 50px;
+      align-items: baseline;
+      .plan-img{
+        align-items: center;
+        display: flex;
+        svg{
+         color: #5EA85E;
+         font-size: 16px;
+        }
+      }
+      .plan-text{
+        margin-left: 15px;
+        p{
+          font-size: 20px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          color: #FFFFFF;
+          margin-bottom: 0;
+        }
+        span{
+          font-size: 16px;
+          line-height: 24px;
+          display: flex;
+          align-items: center;
+          color: #737374;
+        }
+      }
+    }
+  }
+  .plan-category{
+      color: #161618;
+      .swiper-container{
+        color: #161618;
+      }
+    .plan-swp{
+      background: rgba(255, 255, 255, 0.03);
+      label{
+        background: rgba(255, 255, 255, 0.03);
+        box-sizing: border-box;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        padding: 12px;
+        &:hover{
+          border: 1px solid #5EA85E;
+          background: #5EA85E;
+        }
+        input{
+          margin-right: 10px;
+          &.checked{
+            border: 1px solid #5EA85E;
+          }
+        }
+      }
+    }
+
+  }
+  .plan-btn{
+    margin-top: 40px;
+    display: flex;
+    margin-right: auto;
+    justify-content: flex-end;
+    .pln-btn{
+      background: #F63362;
+      border-radius: 6px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 22px;
+      text-align: center;
+      letter-spacing: -0.408px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      padding: 16px 65px;
+    }
+  }
+}

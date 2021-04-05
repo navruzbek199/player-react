@@ -6,7 +6,7 @@ import './uzfilm.scss';
 function uzfilm() {
     return (
         <div>
-            <div className="uzfilm">
+            <div className="uzfilm" id="film">
       <Container>
         <Row>
           <Col md={4}>
@@ -21,6 +21,10 @@ function uzfilm() {
             <div className="recomen-swiper">
               <Swiper
               breakpoints={{
+                320: {
+                  width: 320,
+                  slidesPerView: 2,
+                },
                 375: {
                   width: 375,
                   slidesPerView: 2,

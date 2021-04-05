@@ -20,6 +20,9 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            @media screen and (max-width: 375px) {
+                display: inline;
+            }
             .nav-item{
                 .nav-link{
                     font-weight: 500;
@@ -36,6 +39,9 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            @media screen and (max-width: 375px) {
+                display: inline;
+            }
             .nav-item{
                 .nav-link{
                     font-size: 12px;
@@ -48,6 +54,7 @@
     }
     .footer-download{
         display: flex;
-        
     }
 }
+
+

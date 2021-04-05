@@ -28,6 +28,9 @@
             align-items: center;
             justify-content: left;
             margin-top: 20px;
+            @media screen and (max-width: 375px) {
+                display: block;
+            }
             img:nth-child(2){
                 margin-left: 10px;
             }

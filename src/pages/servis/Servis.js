@@ -350,7 +350,7 @@ class Servis extends Component {
             ""
           )}
           <Row>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film1.png" alt="bg" />
@@ -367,7 +367,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film2.png" alt="bg" />
@@ -384,7 +384,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film3.png" alt="bg" />
@@ -401,7 +401,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film4.png" alt="bg" />
@@ -418,7 +418,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film5.png" alt="bg" />
@@ -435,7 +435,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film6.png" alt="bg" />
@@ -452,7 +452,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film24.png" alt="bg" />
@@ -469,7 +469,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film21.png" alt="bg" />
@@ -486,7 +486,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film22.png" alt="bg" />
@@ -503,7 +503,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film23.png" alt="bg" />
@@ -520,7 +520,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film11.png" alt="bg" />
@@ -537,7 +537,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film12.png" alt="bg" />
@@ -554,7 +554,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film13.png" alt="bg" />
@@ -571,7 +571,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film14.png" alt="bg" />
@@ -588,7 +588,7 @@ class Servis extends Component {
                 </div>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="4">
               <div className="servis-card">
                 <div className="card-img">
                   <img src="img/film15.png" alt="bg" />

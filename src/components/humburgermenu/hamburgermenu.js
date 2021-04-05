@@ -89,14 +89,14 @@ class Hamburgermenu extends React.Component {
                 </Dropdown.Menu>
               </Dropdown>
               <Link to="/admin">
-                <img src="img/admin.png" alt="admin" />
+                <img src="img/admin.png" alt="admin"/>
               </Link>
               <div className="bell-icon">
                 <Bell />
                 <Badge variant="danger"></Badge>{" "}
               </div>
               <div className="search-icon">
-                <Search />
+                <Search/>
               </div>
             </div>
           </div>

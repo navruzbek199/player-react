@@ -22,6 +22,10 @@ function tvseries() {
             <div className="recomen-swiper">
               <Swiper
               breakpoints={{
+                320: {
+                  width: 320,
+                  slidesPerView: 2,
+                },
                 375: {
                   width: 375,
                   slidesPerView: 2,

@@ -30,6 +30,32 @@ function collection() {
             <Col md="9">
               <div className="joint-swp">
                 <Swiper
+                  breakpoints={{
+                    320: {
+                      width: 320,
+                      slidesPerView: 2,
+                    },
+                    375: {
+                      width: 375,
+                      slidesPerView: 2,
+                    },
+                    425: {
+                      width: 425,
+                      slidesPerView: 2,
+                    },
+                    768: {
+                      width: 768,
+                      slidesPerView: 3,
+                    },
+                    992: {
+                      width: 992,
+                      slidesPerView: 4,
+                    },
+                    1024: {
+                      width: 1024,
+                      slidesPerView: 5,
+                    },
+                  }}
                   spaceBetween={20}
                   slidesPerView={2}
                   onSlideChange={() => console.log("slide change")}

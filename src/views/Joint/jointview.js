@@ -31,6 +31,10 @@ function jointview() {
             <div className="joint-swp">
               <Swiper
               breakpoints={{
+                320: {
+                  width: 320,
+                  slidesPerView: 1,
+                },
                 375: {
                   width: 375,
                   slidesPerView: 1,
